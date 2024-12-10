@@ -32,9 +32,9 @@ def write_to_csv(contents, output_file):
                 csv_writer.writerow([file_content])
     
 def main():
-    dir = "/mnt/d/LIVR/4. DLPC/Raw Data/mLSEC_TestDLPC_D2_D6_20240822/mLSEC_FSA_uptake/FSA_results"
+    dir = "dir1"
     keyword = 'FSA'
-    output_file = "/mnt/d/LIVR/4. DLPC/Raw Data/mLSEC_TestDLPC_D2_D6_20240822/mLSEC_FSA_uptake/FSA_intensity.csv"
+    output_file = "dir2"
     files = find_txt(dir, keyword)
 
     if not files:
